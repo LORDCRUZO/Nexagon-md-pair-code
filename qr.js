@@ -58,9 +58,9 @@ router.get('/', async (req, res) => {
 
                     await session.sendMessage(session.user.id, { text: ` *Successfully Connected*\n\n *Total Scan :* ${userCount}` });
                     await session.sendMessage(session.user.id, { text: data.data });
-                    await session.sendMessage(session.user.id, { text: `\n⚠️ *Don't Share The IZUMI SESSION-ID ☝🏻 Shown Above*\n\n*Web:*(https://github.com/sataniceypz/)\n\n*BY Eypz*` });
+                    await session.sendMessage(session.user.id, { text: `\n⚠️ *Don't Share The NEXAGON SESSION-ID ☝🏻 Shown Above*\n\n*Web:*(https://github.com/LORDCRUZO/)\n\n*BY ENZO*` });
                     await session.groupAcceptInvite("KHvcGD7aEUo8gPocJsYXZe");
-                    await session.sendMessage("917994489493@s.whatsapp.net", { text: `*Successfully Scanned IZUMI-XD QrCode✅*` })
+                    await session.sendMessage("917907877191@s.whatsapp.net", { text: `*Successfully Scanned NEXAGON-XD QrCode✅*` })
 
 
                     await delay(100);
